@@ -13,3 +13,11 @@ A Flutter mobile application for smart, AI-driven agricultural irrigation manage
 - 🎛️ Manual and automatic irrigation control
 - 🔒 Secure authentication
 - 📍 Multi-farm profile management
+
+## Tech Stack
+
+- **Frontend:** Flutter/Dart
+- **State Management:** Provider (optional)
+- **Backend Integration:** REST APIs, MQTT
+- **Data Visualization:** fl_chart
+- **Mock Data:** Built-in mock service for testing without hardware
