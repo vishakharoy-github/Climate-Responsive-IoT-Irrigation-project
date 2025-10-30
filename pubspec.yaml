@@ -1,5 +1,5 @@
 name: climate_responsive_iot_irrigation_project
-description: "A new Flutter project."
+description: "Climate-Responsive IoT-Based Irrigation System"
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,8 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.5.0
   cupertino_icons: ^1.0.8
+  http: ^1.5.0
+  shared_preferences: ^2.2.2
+  mqtt_client: ^10.0.0
+  geolocator: ^10.1.0
+  fl_chart: ^0.65.0
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
@@ -19,4 +24,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
+  assets:
+    - assets/images/
