@@ -21,3 +21,15 @@ A Flutter mobile application for smart, AI-driven agricultural irrigation manage
 - **Backend Integration:** REST APIs, MQTT
 - **Data Visualization:** fl_chart
 - **Mock Data:** Built-in mock service for testing without hardware
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is part of an academic research project.
+
+## Authors
+
+- Vishakha Roy - Alliance Univesity
