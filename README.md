@@ -1,16 +1,15 @@
-# climate_responsive_iot_irrigation_project
+# Climate-Responsive IoT-Based Irrigation System
 
-A new Flutter project.
+A Flutter mobile application for smart, AI-driven agricultural irrigation management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🌱 Real-time sensor data monitoring (soil moisture, temperature, humidity, plant stress)
+- 🤖 AI-powered irrigation scheduling using ML models
+- ☁️ Weather forecast integration via NASA POWER API
+- 📊 Data visualization and historical trends
+- 🔔 Smart notifications and alerts
+- 📱 Cross-platform support (Android & iOS)
+- 🎛️ Manual and automatic irrigation control
+- 🔒 Secure authentication
+- 📍 Multi-farm profile management
