@@ -1,45 +1,108 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
+# =========================
+# OS Files
+# =========================
 .DS_Store
-.atom/
-.build/
-.buildlog/
+Thumbs.db
+
+# =========================
+# Miscellaneous
+# =========================
+*.log
+*.swp
+*.class
 .history
 .svn/
-.swiftpm/
+.atom/
+.buildlog/
 migrate_working_dir/
 
-# IntelliJ related
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
 *.iml
 *.ipr
 *.iws
-.idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# =========================
+# Flutter / Dart
+# =========================
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
 .pub/
-/build/
 
-# Symbolication related
-app.*.symbols
+# Ignore build folders anywhere
+build/
+**/build/
 
-# Obfuscation related
-app.*.map.json
+# Flutter generated files
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.metadata
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+
+# =========================
+# iOS / macOS
+# =========================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+macos/Pods/
+
+# =========================
+# Windows / Linux Desktop Builds
+# =========================
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# =========================
+# Node.js / Backend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# =========================
+# Python / AI / ML
+# =========================
+__pycache__/
+*.pyc
+venv/
+.env/
+.ipynb_checkpoints/
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+*.env
+
+# Firebase / Cloud secrets
+serviceAccountKey*.json
+firebaseprivatekey*.json
+google-services.json
+GoogleService-Info.plist
+
+# =========================
+# Temporary / Cache
+# =========================
+*.tmp
+*.temp
+.cache/
