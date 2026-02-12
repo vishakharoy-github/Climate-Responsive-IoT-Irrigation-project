@@ -8,7 +8,6 @@ This module implements the Machine Learning component of the
 The AI model predicts whether irrigation is required based on real-time environmental and soil conditions collected from IoT sensors.
 
 The goal is to enable data-driven irrigation decisions to:
-
 - Reduce water wastage  
 - Improve crop yield  
 - Enable automated irrigation  
@@ -19,14 +18,12 @@ The goal is to enable data-driven irrigation decisions to:
 ## 🧠 Problem Statement
 
 Traditional irrigation systems operate on fixed schedules, leading to:
-
 - Over-irrigation  
 - Water wastage  
 - Crop stress  
 - Inefficient resource usage  
 
 This AI model predicts irrigation need based on:
-
 - Soil moisture  
 - Temperature  
 - Humidity  
@@ -43,6 +40,11 @@ The model predicts:
 0 → No Irrigation Required
 1 → Irrigation Required
 
+This output can be directly used to:
+- Trigger irrigation motor (ON/OFF)
+- Send alerts to the mobile application
+- Update cloud database in real time
+
 
 ### Future Enhancements
 
@@ -51,6 +53,5 @@ The model predicts:
 - Time-series forecasting for irrigation planning  
 
 ---
-
 ## 🗂 Folder Structure
 
