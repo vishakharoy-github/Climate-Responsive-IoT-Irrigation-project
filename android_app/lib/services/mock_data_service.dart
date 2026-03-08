@@ -30,16 +30,20 @@ class MockDataService {
   }
 
   Future<IrrigationSchedule> getMockSchedule() async {
-    await Future.delayed(Duration(seconds: 1));
+    await Future.delayed(const Duration(seconds: 1));
 
     return IrrigationSchedule(
-      nextIrrigationTime: DateTime.now().add(Duration(hours: 6)),
+      nextIrrigationTime: DateTime.now().add(const Duration(hours: 6)),
+      irrigationTime: DateTime.now().add(const Duration(hours: 6)),     // ✅ REQUIRED
       waterVolume: 150 + _random.nextDouble() * 100,
-      confidence: 75 + _random.nextDouble() * 20,
-      duration: Duration(minutes: 30),
+      confidence: (75 + _random.nextDouble() * 20) / 100,              // ✅ 0.0-1.0 range
+      duration: 30,                                                    // ✅ int minutes
+      days: const [true, false, true, false, true, false, true],       // ✅ REQUIRED
+      isActive: true,                                                  // ✅ REQUIRED
       recommendationType: 'AI-Optimized',
     );
   }
+
 
   Future<WeatherData> getMockWeather() async {
     await Future.delayed(Duration(milliseconds: 500));

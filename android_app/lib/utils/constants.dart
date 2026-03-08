@@ -1,6 +1,6 @@
 class AppConstants {
   static const String appName = 'Smart Irrigation';
-  static const String baseUrl = 'https://your-backend-api.com/api';
+  static const String baseUrl = 'http://localhost:8080';
   static const String mqttBroker = 'your-mqtt-broker.com';
   static const int mqttPort = 1883;
 
